@@ -5,7 +5,7 @@ import pytest
 
 #Авторизация пользователя
 @pytest.mark.parametrize("email,password", [
-    ("well_see@mail.ru", "72064!09Ex")
+    ("email", "password")
 ])
 def test_login_user(main: MainPage, email, password):
     main.open()
