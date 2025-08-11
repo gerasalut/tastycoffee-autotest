@@ -1,0 +1,36 @@
+# Python кэш
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальное окружение
+venv/
+.env/
+.venv/
+
+# pytest кеш
+pytest_cache/
+
+# Отчёты и логи
+*.log
+*.tmp
+*.temp
+*.out
+*.report
+reports/
+allure-results/
+allure-report/
+
+# Настройки IDE
+.vscode/
+.idea/
+
+# Файлы системы
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook чекпоинты
+.ipynb_checkpoints/
+
+# Кэш pip
+pip-wheel-metadata/
